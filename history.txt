@@ -1,0 +1,217 @@
+    1  git init
+    2  pwd
+    3  cd Documents/
+    4  cd python/
+    5  git remote add origin git@github.com:iamgeniuswei/python.git
+    6  ssh.exe -T git@github.com
+    7  ssh.exe -T git@github.com
+    8  ls
+    9  cd ..
+   10  ls
+   11  mkdir.exe gittest && cd gittest
+   12  ls
+   13  pwd
+   14  git config 
+   15  git config --global 
+   16  git init 
+   17  git diff
+   18  git status 
+   19  git add readme
+   20  git diff
+   21  git status 
+   22  git commit -m "first commit"
+   23  git status 
+   24  git diff
+   25  git diff
+   26  git diff
+   27  git status 
+   28  git add readme 
+   29  git commit -m "add distributed"
+   30  git status 
+   31  git status 
+   32  git diff
+   33  git add readme 
+   34  git commit -m "append GPL"
+   35  git status 
+   36  git log 
+   37  git log --pretty=oneline 
+   38  git reset --hard HEAD^
+   39  cat readme 
+   40  git log 
+   41  git reset --hard 5e8b
+   42  git log 
+   43  cat readme 
+   44  git reflog 
+   45  ls
+   46  ls -al
+   47  cd .git/
+   48  ls
+   49  cd info/
+   50  ls
+   51  cd ..
+   52  cd objects/
+   53  ls
+   54  cd ..
+   55  cd refs/
+   56  ls
+   57  cd heads/
+   58  ls
+   59  cd master 
+   60  ls
+   61  cd ..
+   62  cd ..
+   63  ls
+   64  cd info/
+   65  ls
+   66  cd ..
+   67  cd hooks/
+   68  ls
+   69  cd ..
+   70  cd logs/
+   71  ls
+   72  cd refs/
+   73  ls
+   74  cd heads/
+   75  ls
+   76  cd ..
+   77  cd ..
+   78  cd ..
+   79  where.exe index
+   80  cd index 
+   81  ls
+   82  cd ..
+   83  git diff
+   84  git diff
+   85  git status 
+   86  git add readme license 
+   87  git status 
+   88  git commit -m "understand how stage works"
+   89  git status 
+   90  git diff
+   91  git diff --cached 
+   92  git diff --staged 
+   93  git diff
+   94  git diff --cached 
+   95  git diff --staged 
+   96  git diff
+   97  git add license 
+   98  git diff
+   99  git diff --cached 
+  100  git status 
+  101  git diff
+  102  git status 
+  103  git diff
+  104  git diff
+  105  git status 
+  106  git diff
+  107  git diff --cached 
+  108  git diff --cached 
+  109  git diff --staged 
+  110  git status 
+  111  git diff
+  112  git add test 
+  113  git status 
+  114  git diff
+  115  git diff --cached 
+  116  git diff
+  117  git diff --cached 
+  118  git commit -m "understand stage"
+  119  git stat
+  120  git status 
+  121  ls
+  122  git add readme 
+  123  git status 
+  124  git commit -m "git tracks changes"
+  125  git stat
+  126  git status 
+  127  git diff
+  128  git diff HEAD -- readme
+  129  git add readme 
+  130  git diff
+  131  git diff --cached 
+  132  git commit -m "understand git track again"
+  133  git diff --cached 
+  134  git status 
+  135  git checkout -- readme
+  136  cat readme 
+  137  git diff
+  138  git add readme 
+  139  git diff
+  140  git diff --cached 
+  141  git status 
+  142  cat readme 
+  143  git reset HEAD readme
+  144  cat readme 
+  145  git status 
+  146  cat readme 
+  147  git checkout -- readme
+  148  cat readme 
+  149  ls
+  150  git status 
+  151  rm test 
+  152  git status 
+  153  git rm test 
+  154  git commit -m "remove test"
+  155  git checkout -- test
+  156  ls
+  157  git log
+  158  git log --pretty=oneline 
+  159  git reset --hard HEAD^
+  160  ls
+  161  rm test 
+  162  git rm test 
+  163  ls
+  164  git checkout -- test
+  165  git commit -m  "remove test again"
+  166  git log --pretty=oneline 
+  167  git reset --hard HEAD^
+  168  ls
+  169  rm test 
+  170  ls
+  171  git checkout -- test
+  172  ls
+  173  git remote add origin git@github.com:iamgeniuswei/gittest.git
+  174  git push -u origin master 
+  175  git status 
+  176  git add github 
+  177  git commit -m "github test"
+  178  git push origin master 
+  179  cd ..
+  180  mkdir.exe test && cd test
+  181  git clone git@github.com:iamgeniuswei/gittest.git
+  182  git log 
+  183  ls
+  184  cd gittest/
+  185  ls
+  186  git log 
+  187  cd ..
+  188  rm -rf gittest/
+  189  git clone git@github.com:iamgeniuswei/gitskills.git
+  190  ls
+  191  cd gitskills/
+  192  ls
+  193  ls -ah
+  194  cat README.md 
+  195  cd ..
+  196  cd ..
+  197  ls
+  198  cd test/
+  199  ls
+  200  cd ..
+  201  cd gittest/
+  202  ls
+  203  git branch 
+  204  git checkout -b dev
+  205  git branch 
+  206  git diff
+  207  git add readme 
+  208  git commit -m "branch test"
+  209  git checkout master 
+  210  cat readme 
+  211  git merge dev 
+  212  git branch 
+  213  git branch -d dev 
+  214  git branch 
+  215  git checkout -b featrue1
+  216  history 
+  217  history > history.txt
